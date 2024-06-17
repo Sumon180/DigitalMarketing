@@ -10,9 +10,9 @@ const Header = () => {
         <div>
           <Image src={logo} alt="logo" className="w-[170px] h-[81.16]" />
         </div>
-        <div className="flex items-center gap-8 text-[18px]">
-          <ul className="flex items-center gap-8 font-medium leading-[18.8px] text-[#292930]">
-            <li>
+        <div className="flex items-center gap-10 text-[18px]">
+          <ul className="flex items-center gap-10 font-medium leading-[18.8px] text-[#292930]">
+            <li className="border-b-2 border-[#5956E8]">
               <Link href="/home">Home</Link>
             </li>
             <li>
@@ -28,8 +28,10 @@ const Header = () => {
               <Link href="/home">Blog</Link>
             </li>
           </ul>
-          <Link href="/home">Login</Link>
-          <button className="px-5 py-2 rounded bg-[#292930] text-white">
+          <Link href="/home" className="font-medium text-[#292930]">
+            Login
+          </Link>
+          <button className="px-5 py-2 rounded bg-[#292930] text-white font-medium">
             Get Started
           </button>
         </div>

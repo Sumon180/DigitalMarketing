@@ -12,11 +12,11 @@ const Hero = () => {
             A fully integrated digital{" "}
             <span className="text-[#5956E8]">marketing</span> agency
           </h1>
-          <p className="my-5 text-[#555555]">
+          <p className="my-7 text-[#555555] text-[18px]">
             Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret
             reprehendunt ius ex. Ut vis mazim erroribus forensibus.
           </p>
-          <div className="flex gap-5">
+          <div className="flex gap-5 font-medium">
             <button className="px-5 py-2 rounded bg-[#292930] text-white">
               Our Services
             </button>
