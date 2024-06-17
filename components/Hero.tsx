@@ -5,9 +5,6 @@ const Hero = () => {
     <div className="h-screen banner-image bg-cover flex items-center justify-center">
       <div className="max-w-[1200px] w-full mx-auto">
         <div className="w-1/2">
-          <p className="uppercase text-sm text-[15px]">
-            <span className="text-[#FFDC60]">//</span>Agency
-          </p>
           <h1 className="text-[70px] font-bold text-[#292930] leading-[77.35px]">
             A fully integrated digital{" "}
             <span className="text-[#5956E8]">marketing</span> agency
