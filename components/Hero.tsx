@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="h-screen banner-image bg-cover flex items-center justify-center">
-      <div className="max-w-[1200px] w-full mx-auto">
+      <div className="section-wrapper w-full">
         <div className="w-1/2">
           <h1 className="text-[70px] font-bold text-[#292930] leading-[77.35px]">
             A fully integrated digital{" "}

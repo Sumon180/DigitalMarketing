@@ -1,7 +1,7 @@
 import React from "react";
 
 const Pricing = () => {
-  return <div>Pricing</div>;
+  return <div className="section-wrapper">Pricing</div>;
 };
 
 export default Pricing;

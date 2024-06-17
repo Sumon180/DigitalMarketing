@@ -45,16 +45,13 @@ const Services = () => {
 
   return (
     <div className="bg-[#292930] text-white">
-      <div className="max-w-[1200px] w-full mx-auto py-14">
+      <div className="section-wrapper w-full py-14">
         <div className="flex justify-between items-end">
           <div className="flex gap-7 w-9/12">
             <button className="min-w-[88px] h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
               <CiSettings className="w-[34px] h-[34px]" />
             </button>
             <div className="">
-              <p className="text-[15px] font-medium">
-                <span className="text-[#FFDC60]">//</span> 01 . Services
-              </p>
               <h1 className="text-[40px] font-semibold leading-[44.2px]">
                 High-impact services to take your business to the next level
               </h1>

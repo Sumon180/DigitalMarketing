@@ -6,7 +6,7 @@ import logo from "../public/Logo.png";
 const Header = () => {
   return (
     <div className="fixed left-0 right-0 z-50">
-      <div className="max-w-[1200px] h-[81px] flex items-center justify-between mx-auto">
+      <div className="section-wrapper h-[81px] flex items-center justify-between">
         <div>
           <Image src={logo} alt="logo" className="w-[170px] h-[81.16]" />
         </div>

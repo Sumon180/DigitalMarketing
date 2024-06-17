@@ -7,7 +7,7 @@ import icon2 from "@/public/Icon8.png";
 
 const About = () => {
   return (
-    <div className="max-w-[1200px] mx-auto flex my-24">
+    <div className="section-wrapper flex my-24">
       <div className="w-5/12">
         <Image src={image} alt="about" />
       </div>
