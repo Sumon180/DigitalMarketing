@@ -88,31 +88,31 @@ const Pricing = () => {
           <div className="bg-gray-300 h-[1px] my-10" />
           <ul className="flex flex-col gap-8">
             <li className="flex items-center gap-5">
-              <div className="bg-[#3FCD78] w-[20px] h-[20px] rounded-full flex items-center justify-center text-white">
+              <div className="bg-[#3FCD78] w-[20px] h-[20px] rounded-full flex items-center justify-center text-[#292930]">
                 <TiTick />
               </div>
               <p>Email MarketingContent</p>
             </li>
             <li className="flex items-center gap-5">
-              <div className="bg-[#3FCD78] w-[20px] h-[20px] rounded-full flex items-center justify-center text-white">
+              <div className="bg-[#3FCD78] w-[20px] h-[20px] rounded-full flex items-center justify-center text-[#292930]">
                 <TiTick />
               </div>
               <p>MarketingVoice</p>
             </li>
             <li className="flex items-center gap-5">
-              <div className="bg-[#3FCD78] w-[20px] h-[20px] rounded-full flex items-center justify-center text-white">
+              <div className="bg-[#3FCD78] w-[20px] h-[20px] rounded-full flex items-center justify-center text-[#292930]">
                 <TiTick />
               </div>
               <p>OptimizeSEO </p>
             </li>
             <li className="flex items-center gap-5">
-              <div className="bg-[#3FCD78] w-[20px] h-[20px] rounded-full flex items-center justify-center text-white">
+              <div className="bg-[#3FCD78] w-[20px] h-[20px] rounded-full flex items-center justify-center text-[#292930]">
                 <RxCross2 />
               </div>
               <p>ConsultingVideo</p>
             </li>
             <li className="flex items-center gap-5">
-              <div className="bg-[#FF5353] w-[20px] h-[20px] rounded-full flex items-center justify-center text-white">
+              <div className="bg-[#FF5353] w-[20px] h-[20px] rounded-full flex items-center justify-center text-[#292930]">
                 <RxCross2 />
               </div>
               <p>MarketingAdvertising</p>
