@@ -8,7 +8,7 @@ import graphics3 from "@/public/graphics3.png";
 
 const Proccess = () => {
   return (
-    <div className=" max-w-[1200px] bg-gradient-to-r from-[#E9F7FF] to-[#FFF3CA] mx-auto flex flex-col items-center py-14 rounded-md">
+    <div className="max-w-[1200px] bg-gradient-to-r from-[#E9F7FF] to-[#FFF3CA] mx-auto flex flex-col items-center py-14 rounded-md">
       <Image alt={"proccess icon"} src={proccessicon} />
       <h1 className="text-[40px] font-semibold leading-[44.2px] max-w-[525px] text-center mt-7">
         A simple, yet powerful and efficient process

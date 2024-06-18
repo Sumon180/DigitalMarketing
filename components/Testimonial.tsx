@@ -34,7 +34,7 @@ const Testimonial = () => {
     {
       id: 3,
       name: "Sumon Hossain",
-      designation: "John",
+      designation: "Marketing Lead at Google",
       image: profile,
       companyLogo: comapany,
       desc: "Lorem Ipsum has been the industry's standard from dummy text ever since the unknown printer to galley of type and make a type specimen book.",
@@ -43,7 +43,7 @@ const Testimonial = () => {
     {
       id: 4,
       name: "Lily klinton",
-      designation: "John",
+      designation: "Designer",
       image: profile,
       companyLogo: comapany2,
       desc: "Lorem Ipsum has been the industry's standard from dummy text ever since the unknown printer to galley of type and make a type specimen book.",
