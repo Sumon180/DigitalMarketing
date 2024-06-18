@@ -24,7 +24,7 @@ const Benifits = () => {
         />
       </div>
       <div className="section w-1/2">
-        <div className="flex flex-col gap-10 w-7/12 mx-auto mt-10">
+        <div className="flex flex-col gap-10 w-7/12 mx-auto">
           <div className="">
             <h3 className="text-[25px] font-semibold leading-[27.63px]">
               Page Rankings
