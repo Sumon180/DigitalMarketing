@@ -1,11 +1,38 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import logo from "../public/Logo.png";
+import { cn } from "@/lib/utils";
 
 const Header = () => {
+  const [scrollClass, setScrollClass] = useState("");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY >= 200) {
+        setScrollClass("after-scroll-navbar");
+      } else {
+        setScrollClass("");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="fixed left-0 right-0 z-50">
+    <div
+      className={cn(
+        "fixed left-0 right-0 z-50",
+        scrollClass ? "bg-white" : "bg-transparent"
+      )}
+    >
       <div className="section-wrapper h-[81px] flex items-center justify-between">
         <div>
           <Image src={logo} alt="logo" className="w-[170px] h-[81.16]" />
