@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import icon from "@/public/Icon19.png";
 import image from "@/public/Image (1).png";
-import image2 from "@/public/Image (1).png";
+import image2 from "@/public/Image (2).png";
 
 const Blog = () => {
   return (
