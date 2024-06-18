@@ -23,7 +23,7 @@ const About = () => {
         <div className="bg-[#CFCFCF] h-[1px] my-10" />
         <p className="text-[#555555]">
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry ftyuu Ipsum has been the industry's standard book. It has
+          industry ftyuu Ipsum has been the industrys standard book. It has
           survived not only five centuries, but also the leap into electronic
           typesetting.
         </p>

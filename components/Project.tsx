@@ -51,14 +51,14 @@ const Project = () => {
               <AccordionItem value="item-2">
                 <AccordionTrigger>Experiential Marketing</AccordionTrigger>
                 <AccordionContent>
-                  Lorem Ipsum has been the industry's standard from dummy text
+                  Lorem Ipsum has been the industrys standard from dummy text
                   ever since the unknown printer to galley of type and make.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">
                 <AccordionTrigger>Email Marketing</AccordionTrigger>
                 <AccordionContent>
-                  Yes. It's animated by default, but you can disable it if you
+                  Yes. Its animated by default, but you can disable it if you
                   prefer.
                 </AccordionContent>
               </AccordionItem>

@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
           <h3 className="text-[25px] font-semibold">Subscribe now</h3>
           <p className="text-[18px] font-normal">
-            Industry's standard from dummy and make a type book.{" "}
+            Industrys standard from dummy and make a type book.
           </p>
           <input
             type="text"
