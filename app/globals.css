@@ -24,3 +24,23 @@
 .readmore-btn:hover > span {
     @apply text-white bg-[#5956E8];
 }
+.swiper-button-prev {
+    left: 1080px !important;
+}
+.swiper-button-prev, .swiper-button-next{
+    top: 45px !important;
+    background-color: red;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 16px !important;
+}
+
+/* media query */
+@media (max-width: 1200px) {
+    .swiper-button-prev {
+        left: 180px !important;
+    }
+}
