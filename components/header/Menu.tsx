@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Menu = () => {
   return (
-    <div className="hidden lg:flex items-center gap-10 text-[18px]">
-      <div className="flex items-center gap-10 font-medium leading-[18.8px] text-[#292930]">
+    <div className="flex flex-col lg:flex-row items-center gap-10 text-[18px]">
+      <div className="flex flex-col lg:flex-row items-center gap-10 font-medium leading-[18.8px] text-[#292930]">
         <Link href="/home" className="border-b-2 border-[#5956E8]">
           Home
         </Link>
