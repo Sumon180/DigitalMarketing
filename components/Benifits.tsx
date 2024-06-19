@@ -24,13 +24,13 @@ const Benifits = () => {
         />
       </div>
       <div className="section md:w-1/2">
-        <div className="flex flex-col gap-10 w-7/12 mx-auto">
+        <div className="flex flex-col gap-10 lg:w-7/12 mx-auto">
           <div className="">
             <h3 className="text-[25px] font-semibold leading-[27.63px]">
               Page Rankings
             </h3>
             <div className="relative bg-[#CFCFCF] h-[1px]">
-              <div className="absolute min-w-[86px] min-h-[86px] flex items-center justify-center border rounded-full -translate-y-1/2 right-full">
+              <div className="absolute min-w-[86px] min-h-[86px] hidden md:flex items-center justify-center border rounded-full -translate-y-1/2 right-full">
                 <Image src={vactor} alt="icon" />
               </div>
             </div>
@@ -45,7 +45,7 @@ const Benifits = () => {
                 Site Optimisation
               </h3>
               <div className="relative bg-[#CFCFCF] h-[1px]">
-                <div className="absolute min-w-[86px] min-h-[86px] flex items-center justify-center border rounded-full -translate-y-1/2 right-full">
+                <div className="absolute min-w-[86px] min-h-[86px] hidden md:flex items-center justify-center border rounded-full -translate-y-1/2 right-full">
                   <Image src={vactor2} alt="icon2" />
                 </div>
               </div>
@@ -61,7 +61,7 @@ const Benifits = () => {
                 Reporting & Analysis
               </h3>
               <div className="relative bg-[#CFCFCF] h-[1px]">
-                <div className="absolute min-w-[86px] min-h-[86px] flex items-center justify-center rounded-full -translate-y-1/2 right-full">
+                <div className="absolute min-w-[86px] min-h-[86px] hidden md:flex items-center justify-center rounded-full -translate-y-1/2 right-full">
                   <Image src={vactor3} alt="icon2" />
                 </div>
               </div>

@@ -27,13 +27,13 @@ const About = () => {
           survived not only five centuries, but also the leap into electronic
           typesetting.
         </p>
-        <div className="flex flex-col gap-20 w-7/12 mx-auto mt-10">
+        <div className="flex flex-col gap-20 md:w-7/12 mx-auto mt-10">
           <div className="">
             <h3 className="text-[25px] font-semibold leading-[27.63px]">
               Guaranteed Results
             </h3>
             <div className="relative bg-[#CFCFCF] h-[1px]">
-              <div className="absolute min-w-[86px] min-h-[86px] flex items-center justify-center border rounded-full -translate-y-1/2 right-full">
+              <div className="absolute min-w-[86px] min-h-[86px] hidden md:flex items-center justify-center border rounded-full -translate-y-1/2 right-full">
                 <Image src={icon} alt="icon" />
               </div>
             </div>
@@ -48,7 +48,7 @@ const About = () => {
                 Team of Industry Experts
               </h3>
               <div className="relative bg-[#CFCFCF] h-[1px]">
-                <div className="absolute min-w-[86px] min-h-[86px] flex items-center justify-center border rounded-full -translate-y-1/2 right-full">
+                <div className="absolute min-w-[86px] min-h-[86px] hidden md:flex items-center justify-center border rounded-full -translate-y-1/2 right-full">
                   <Image src={icon2} alt="icon2" />
                 </div>
               </div>
