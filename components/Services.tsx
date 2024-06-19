@@ -8,6 +8,7 @@ import serviceicon3 from "@/public/Icon3.png";
 import serviceicon4 from "@/public/Icon4.png";
 import serviceicon5 from "@/public/Icon5.png";
 import Image from "next/image";
+import Button from "./Button";
 
 const Services = () => {
   const services = [
@@ -57,12 +58,12 @@ const Services = () => {
               High-impact services to take your business to the next level
             </h1>
           </div>
-          <button className="flex items-center justify-center gap-2 px-5 py-2 rounded bg-white text-[#292930] font-medium">
+          <Button className="flex items-center justify-center gap-2 bg-white text-[#292930]">
             Our Services
             <span className="p-1 bg-[#5956E8] text-white rounded-full">
               <MdOutlineKeyboardArrowRight size={20} />
             </span>
-          </button>
+          </Button>
         </div>
         <div className="mt-[90px] grid md:grid-cols-2 xl:grid-cols-3 gap-16">
           {services.map((service) => (

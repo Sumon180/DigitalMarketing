@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/accordion";
 import Image from "next/image";
 import projecticon from "@/public/imageprojct.png";
+import Button from "./Button";
 
 const Project = () => {
   return (
@@ -26,12 +27,12 @@ const Project = () => {
               Agency
             </h1>
           </div>
-          <button className="flex items-center justify-center gap-2 px-5 py-2 rounded bg-white text-[#292930] font-medium">
+          <Button className="flex items-center justify-center gap-2 bg-white text-[#292930]">
             More Cacestudys
             <span className="p-1 bg-[#5956E8] text-white rounded-full">
               <MdOutlineKeyboardArrowRight size={20} />
             </span>
-          </button>
+          </Button>
         </div>
         <div className="flex gap-[27px] mt-20">
           <div className="lg:w-1/2 w-full">

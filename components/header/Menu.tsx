@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
+import Button from "../Button";
 
 const menu = [
   {
@@ -45,9 +46,7 @@ const Menu = () => {
       <Link href="/home" className="font-medium text-[#292930]">
         Login
       </Link>
-      <button className="px-5 py-2 rounded bg-[#292930] text-white font-medium">
-        Get Started
-      </button>
+      <Button className="bg-[#292930] text-white">Get Started</Button>
     </div>
   );
 };

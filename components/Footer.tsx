@@ -7,6 +7,7 @@ import Link from "next/link";
 import icon from "@/public/Icon (8).png";
 import icon2 from "@/public/Icon (9).png";
 import icon3 from "@/public/Icon (10).png";
+import Button from "./Button";
 
 const Footer = () => {
   return (
@@ -28,11 +29,11 @@ const Footer = () => {
           <input
             type="text"
             placeholder="Enter Your Email"
-            className="w-full bg-[#5B5B61] py-3 px-5 my-5 rounded-md"
+            className="w-full bg-[#5B5B61] py-3 px-5 my-5 rounded"
           />
-          <button className="bg-[#FFDC60] w-full p-3 text-[#292930] rounded-md">
+          <Button className="bg-[#FFDC60] w-full p-3 text-[#292930]">
             Subscribe
-          </button>
+          </Button>
         </div>
         <div className="lg:w-8/12 flex flex-col justify-between">
           <div className="flex flex-col sm:flex-row max-sm:gap-10 w-full">

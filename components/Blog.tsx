@@ -3,6 +3,7 @@ import React from "react";
 import icon from "@/public/Icon19.png";
 import image from "@/public/Image (1).png";
 import image2 from "@/public/Image (2).png";
+import Button from "./Button";
 
 const Blog = () => {
   return (
@@ -30,9 +31,9 @@ const Blog = () => {
               auctor.{" "}
             </p>
             <div>
-              <button className="px-5 py-2 rounded border bg-white text-[#292930] text-[18px] font-medium">
+              <Button className="border bg-white text-[#292930] text-[18px]">
                 Read more
-              </button>
+              </Button>
             </div>
           </div>
           <div className="lg:w-1/2 flex items-center justify-end">
@@ -60,17 +61,17 @@ const Blog = () => {
               auctor.{" "}
             </p>
             <div>
-              <button className="px-5 py-2 rounded border bg-white text-[#292930] text-[18px] font-medium">
+              <Button className="border bg-white text-[#292930] text-[18px]">
                 Read more
-              </button>
+              </Button>
             </div>
           </div>
         </div>
       </div>
       <div className="my-10">
-        <button className="px-5 py-2 rounded border bg-[#292930] text-white text-[18px] font-medium">
+        <Button className="border bg-[#292930] text-white text-[18px]">
           More articles
-        </button>
+        </Button>
       </div>
     </div>
   );

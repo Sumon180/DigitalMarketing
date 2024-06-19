@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -14,12 +15,10 @@ const Hero = () => {
             reprehendunt ius ex. Ut vis mazim erroribus forensibus.
           </p>
           <div className="flex flex-col sm:flex-row gap-5 font-medium">
-            <button className="px-5 py-2 rounded bg-[#292930] text-white">
-              Our Services
-            </button>
-            <button className="px-5 py-2 rounded border border-[#292930] text-[#292930]">
+            <Button className="bg-[#292930] text-white">Our Services</Button>
+            <Button className="border border-[#292930] text-[#292930]">
               Get Started
-            </button>
+            </Button>
           </div>
         </div>
       </div>
