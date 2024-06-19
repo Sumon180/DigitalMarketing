@@ -33,6 +33,7 @@ const Menu = () => {
       <div className="flex flex-col lg:flex-row items-center gap-10 font-medium leading-[18.8px] text-[#292930]">
         {menu.map((item) => (
           <Link
+            key={item.name + 1}
             href={item.link}
             className={cn(
               "hover:text-[#5956E8]",
