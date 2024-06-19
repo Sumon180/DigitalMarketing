@@ -14,8 +14,8 @@ const Pricing = () => {
       <h1 className="text-[40px] font-semibold leading-[44.2px] max-w-[525px] text-center mt-7">
         Our Flexible Pricing Plans
       </h1>
-      <div className="flex justify-between gap-5 w-full mt-16">
-        <div className="plan w-1/2 p-10 rounded-md border bg-[#F6F6F6]">
+      <div className="flex flex-col lg:flex-row justify-between gap-5 w-full mt-16">
+        <div className="plan lg:w-1/2 p-10 rounded-md border bg-[#F6F6F6]">
           <div className="flex items-center gap-5">
             <IoSettings className="w-[50px] h-[50px] text-[#C8C8C8]" />
             <div>
@@ -67,7 +67,7 @@ const Pricing = () => {
             Purchase Plan
           </button>
         </div>
-        <div className="relative plan w-1/2 p-10 rounded-md border bg-[#292930] text-[#F6F6F6]">
+        <div className="relative plan2 lg:w-1/2 p-10 rounded-md border bg-[#292930] text-[#F6F6F6]">
           <span className="bg-[#FFDC60] text-[#292930] px-5 p-2 rounded-lg absolute right-5 top-5">
             POPULAR
           </span>
@@ -122,7 +122,7 @@ const Pricing = () => {
             Purchase Plan
           </button>
         </div>
-        <div className="plan w-1/2 p-10 rounded-md border  bg-[#F6F6F6]">
+        <div className="plan3 lg:w-1/2 p-10 rounded-md border  bg-[#F6F6F6]">
           <div className="flex items-center gap-5">
             <Image alt={"pricing icon"} src={pricing3} />
             <div>

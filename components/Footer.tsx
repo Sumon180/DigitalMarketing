@@ -11,8 +11,8 @@ import icon3 from "@/public/Icon (10).png";
 const Footer = () => {
   return (
     <div className="bg-[#292930] text-white py-20">
-      <div className="section-wrapper flex gap-20">
-        <div className="w-4/12 bg-[#3C3C45] p-[50px]">
+      <div className="section-wrapper flex flex-col lg:flex-row gap-20">
+        <div className="lg:w-4/12 bg-[#3C3C45] p-[50px]">
           <div className="flex flex-col items-center gap-3">
             <Image
               alt={"pricing icon"}
@@ -34,9 +34,9 @@ const Footer = () => {
             Subscribe
           </button>
         </div>
-        <div className="w-8/12 flex flex-col justify-between">
-          <div className="flex w-full">
-            <div className="w-1/2 flex flex-col justify-between">
+        <div className="lg:w-8/12 flex flex-col justify-between">
+          <div className="flex flex-col sm:flex-row max-sm:gap-10 w-full">
+            <div className="sm:w-1/2 flex flex-col justify-between">
               <div className="flex items-center">
                 <FiPhone className="text-green-500" />
                 <p>Get in touch with</p>
@@ -48,7 +48,7 @@ const Footer = () => {
               </div>
               <p> nextlevel@marketing.com</p>
             </div>
-            <div className="w-1/2 flex flex-col justify-between">
+            <div className="sm:w-1/2 flex flex-col justify-between">
               <div className="flex items-center">
                 <FiPhone className="text-yellow-500" />
                 <p>Location</p>
@@ -59,8 +59,8 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="h-[1px] bg-gray-700" />
-          <div className="flex justify-between">
+          <div className="h-[1px] bg-gray-700 max-lg:my-10" />
+          <div className="flex flex-wrap gap-5 justify-between">
             <div>
               <div className="flex items-center gap-2">
                 <Image alt={"pricing icon"} src={icon} />
@@ -101,7 +101,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="h-[1px] bg-gray-700" />
+          <div className="h-[1px] bg-gray-700 max-lg:my-10" />
           <div>
             <p>
               Copyright © Nextlevel | Designed by VictorFlow - Powered by

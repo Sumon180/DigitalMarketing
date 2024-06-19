@@ -14,29 +14,27 @@ const Project = () => {
   return (
     <div className="bg-[#292930] text-white">
       <div className="section-wrapper py-16">
-        <div className="flex justify-between items-end">
-          <div className="flex gap-7 w-9/12">
-            <button className="min-w-[88px] h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
+        <div className="flex flex-col md:flex-row gap-10 justify-between md:items-end">
+          <div className="flex flex-col md:flex-row gap-7 md:w-9/12">
+            <button className="max-w-[88px] h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
               <PiCopySimpleLight className="w-[34px] h-[34px]" />
             </button>
             <div className="">
-              <h1 className="text-[40px] font-semibold leading-[44.2px]">
+              <h1 className="text-[30px] md:text-[40px] font-semibold leading-[44.2px]">
                 1520 -Project Done. Browse our latest case study on Marketing
                 Agency
               </h1>
             </div>
           </div>
-          <div>
-            <button className="flex items-center gap-2 px-5 py-2 rounded bg-white text-[#292930] font-medium">
-              More Cacestudys
-              <span className="p-1 bg-[#5956E8] text-white rounded-full">
-                <MdOutlineKeyboardArrowRight size={20} />
-              </span>
-            </button>
-          </div>
+          <button className="flex items-center gap-2 px-5 py-2 rounded bg-white text-[#292930] font-medium">
+            More Cacestudys
+            <span className="p-1 bg-[#5956E8] text-white rounded-full">
+              <MdOutlineKeyboardArrowRight size={20} />
+            </span>
+          </button>
         </div>
         <div className="flex gap-[27px] mt-20">
-          <div className="w-1/2">
+          <div className="lg:w-1/2 w-full">
             <Accordion
               type="single"
               collapsible
@@ -64,12 +62,12 @@ const Project = () => {
               </AccordionItem>
             </Accordion>
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 hidden lg:block">
             <Image src={projecticon} alt="image" />
           </div>
         </div>
         <div className="bg-gray-700 h-[1px] my-10" />
-        <div className="mt-5 flex items-center justify-between">
+        <div className="mt-5 flex flex-wrap items-center justify-between">
           <div className="flex items-center">
             <div className="text-[40px] font-semibold">
               325<span className="text-[#5956E8]">+</span>

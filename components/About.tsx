@@ -8,15 +8,15 @@ import icon2 from "@/public/Icon8.png";
 const About = () => {
   return (
     <div className="section-wrapper flex my-24">
-      <div className="w-5/12">
+      <div className="w-5/12 hidden lg:block">
         <Image src={image} alt="about" />
       </div>
-      <div className="w-7/12">
-        <div className="flex gap-7">
-          <button className="min-w-[88px] h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
+      <div className="lg:w-7/12">
+        <div className="flex items-center gap-7">
+          <button className="min-w-[60px] h-[60px] lg:min-w-[88px] lg:h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
             <HiAtSymbol className="w-[34px] h-[34px]" />
           </button>
-          <h1 className="text-[40px] leading-[44.2px] font-semibold">
+          <h1 className="text-[30px] lg:text-[40px] leading-[44.2px] font-semibold">
             The #1 digital marketing services company
           </h1>
         </div>

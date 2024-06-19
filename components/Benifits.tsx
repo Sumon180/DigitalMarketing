@@ -8,10 +8,10 @@ import vactor3 from "@/public/vactor3.png";
 
 const Benifits = () => {
   return (
-    <div className="section-wrapper flex mt-16 gap-10">
-      <div className="section relative w-1/2">
-        <div className="flex gap-6">
-          <Image alt={"pricing icon"} src={star} />
+    <div className="section-wrapper flex flex-col md:flex-row mt-16 gap-10">
+      <div className="section relative md:w-1/2">
+        <div className="flex flex-col md:flex-row gap-6">
+          <Image alt={"pricing icon"} src={star} className="max-md:w-14" />
           <h1 className="text-[40px] font-semibold leading-[44.2px] max-w-[525px]">
             Benifit of working with Maruncy
           </h1>
@@ -20,10 +20,10 @@ const Benifits = () => {
           alt={"pricing icon"}
           src={benifits}
           width={500}
-          className="absolute top-0 right-0 left-0 bottom-0"
+          className="absolute top-0 right-0 left-0 bottom-0 hidden md:block"
         />
       </div>
-      <div className="section w-1/2">
+      <div className="section md:w-1/2">
         <div className="flex flex-col gap-10 w-7/12 mx-auto">
           <div className="">
             <h3 className="text-[25px] font-semibold leading-[27.63px]">

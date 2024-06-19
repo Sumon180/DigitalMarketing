@@ -53,11 +53,11 @@ const Testimonial = () => {
 
   return (
     <div className="section-wrapper my-16">
-      <div className="flex gap-7 w-6/12">
-        <button className="min-w-[88px] h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
-          <FaCommentDots className="w-[34px] h-[34px]" />
+      <div className="flex flex-col md:flex-row gap-7 md:w-6/12">
+        <button className="max-w-[60px] h-[60px] lg:min-w-[88px] lg:h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
+          <FaCommentDots className="w-[24px] md:w-[34px] h-[34px]" />
         </button>
-        <h1 className="text-[40px] leading-[44.2px] font-semibold">
+        <h1 className="text-[30px] md:text-[40px] leading-[44.2px] font-semibold">
           We work with customers across all industries
         </h1>
       </div>
@@ -66,7 +66,13 @@ const Testimonial = () => {
           navigation={true}
           modules={[Navigation]}
           spaceBetween={50}
-          slidesPerView={2}
+          slidesPerView={1}
+          breakpoints={{
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+          }}
         >
           {testimonials.map((testimonial) => (
             <SwiperSlide key={testimonial.id} className="pt-24">

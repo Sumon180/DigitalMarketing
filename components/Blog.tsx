@@ -12,8 +12,8 @@ const Blog = () => {
         Browse our content on growth marketing
       </h1>
       <div className="flex flex-col gap-5 w-full mt-10">
-        <div className="flex w-full gap-20 bg-[#FFF3CA] p-[85px]">
-          <div className="w-1/2 flex flex-col justify-between">
+        <div className="flex flex-col md:flex-row w-full gap-20 bg-[#FFF3CA] p-[40px] md:p-[85px]">
+          <div className="md:w-1/2 flex flex-col justify-between">
             <div className="flex items-center justify-between">
               <button className="px-5 py-1 rounded-full border border-[#292930] text-[#292930] text-[18px] font-medium">
                 Marketing
@@ -35,15 +35,15 @@ const Blog = () => {
               </button>
             </div>
           </div>
-          <div className="w-1/2 flex items-center justify-end">
+          <div className="md:w-1/2 flex items-center justify-end">
             <Image alt={"proccess icon"} src={image} />
           </div>
         </div>
-        <div className="flex w-full gap-20 bg-[#E9F7FF] p-[85px]">
-          <div className="w-1/2">
+        <div className="flex flex-col-reverse w-full gap-20 bg-[#E9F7FF] p-[40px] md:p-[85px]">
+          <div className="md:w-1/2">
             <Image alt={"proccess icon"} src={image2} />
           </div>
-          <div className="w-1/2 flex flex-col justify-between">
+          <div className="md:w-1/2 flex flex-col justify-between">
             <div className="flex items-center justify-between">
               <button className="px-5 py-1 rounded-full border border-[#292930] text-[#292930] text-[18px] font-medium">
                 Marketing

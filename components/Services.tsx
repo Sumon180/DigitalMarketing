@@ -46,27 +46,23 @@ const Services = () => {
   return (
     <div className="bg-[#292930] text-white">
       <div className="section-wrapper w-full py-14">
-        <div className="flex justify-between items-end">
-          <div className="flex gap-7 w-9/12">
-            <button className="min-w-[88px] h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
+        <div className="flex flex-col md:flex-row gap-10 justify-between md:items-end">
+          <div className="flex gap-7 lg:w-9/12">
+            <button className="min-w-[60px] h-[60px] lg:min-w-[88px] lg:h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
               <CiSettings className="w-[34px] h-[34px]" />
             </button>
-            <div className="">
-              <h1 className="text-[40px] font-semibold leading-[44.2px]">
-                High-impact services to take your business to the next level
-              </h1>
-            </div>
+            <h1 className="text-[30px] lg:text-[40px] font-semibold leading-[44.2px]">
+              High-impact services to take your business to the next level
+            </h1>
           </div>
-          <div>
-            <button className="flex items-center gap-2 px-5 py-2 rounded bg-white text-[#292930] font-medium">
-              Our Services
-              <span className="p-1 bg-[#5956E8] text-white rounded-full">
-                <MdOutlineKeyboardArrowRight size={20} />
-              </span>
-            </button>
-          </div>
+          <button className="flex items-center justify-center gap-2 px-5 py-2 rounded bg-white text-[#292930] font-medium">
+            Our Services
+            <span className="p-1 bg-[#5956E8] text-white rounded-full">
+              <MdOutlineKeyboardArrowRight size={20} />
+            </span>
+          </button>
         </div>
-        <div className="mt-[90px] grid grid-cols-3 gap-16">
+        <div className="mt-[90px] grid md:grid-cols-2 xl:grid-cols-3 gap-16">
           {services.map((service) => (
             <div
               key={service.title}
