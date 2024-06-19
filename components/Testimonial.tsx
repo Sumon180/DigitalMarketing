@@ -53,11 +53,13 @@ const Testimonial = () => {
 
   return (
     <div className="section-wrapper my-16">
-      <div className="flex flex-col md:flex-row gap-7 md:w-6/12">
-        <button className="max-w-[60px] h-[60px] lg:min-w-[88px] lg:h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
-          <FaCommentDots className="w-[24px] md:w-[34px] h-[34px]" />
-        </button>
-        <h1 className="text-[30px] md:text-[40px] leading-[44.2px] font-semibold">
+      <div className="flex flex-col items-center md:flex-row gap-7 md:w-6/12">
+        <div>
+          <button className="w-[60px] h-[60px] lg:w-[88px] lg:h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
+            <FaCommentDots className="w-[24px] md:w-[34px] h-[34px]" />
+          </button>
+        </div>
+        <h1 className="text-[30px] max-md:text-center md:text-[40px] leading-[44.2px] font-semibold">
           We work with customers across all industries
         </h1>
       </div>

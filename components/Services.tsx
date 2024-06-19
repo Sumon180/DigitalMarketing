@@ -47,11 +47,13 @@ const Services = () => {
     <div className="bg-[#292930] text-white">
       <div className="section-wrapper w-full py-14">
         <div className="flex flex-col md:flex-row gap-10 justify-between md:items-end">
-          <div className="flex gap-7 lg:w-9/12">
-            <button className="min-w-[60px] h-[60px] lg:min-w-[88px] lg:h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
-              <CiSettings className="w-[34px] h-[34px]" />
-            </button>
-            <h1 className="text-[30px] lg:text-[40px] font-semibold leading-[44.2px]">
+          <div className="flex flex-col md:flex-row items-center gap-7 lg:w-9/12">
+            <div>
+              <button className="min-w-[60px] h-[60px] lg:min-w-[88px] lg:h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
+                <CiSettings className="w-[34px] h-[34px]" />
+              </button>
+            </div>
+            <h1 className="text-[30px] max-md:text-center lg:text-[40px] font-semibold leading-[44.2px]">
               High-impact services to take your business to the next level
             </h1>
           </div>

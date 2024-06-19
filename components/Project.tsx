@@ -15,18 +15,18 @@ const Project = () => {
     <div className="bg-[#292930] text-white">
       <div className="section-wrapper py-16">
         <div className="flex flex-col md:flex-row gap-10 justify-between md:items-end">
-          <div className="flex flex-col md:flex-row gap-7 md:w-9/12">
-            <button className="max-w-[88px] h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
-              <PiCopySimpleLight className="w-[34px] h-[34px]" />
-            </button>
-            <div className="">
-              <h1 className="text-[30px] md:text-[40px] font-semibold leading-[44.2px]">
-                1520 -Project Done. Browse our latest case study on Marketing
-                Agency
-              </h1>
+          <div className="flex flex-col md:flex-row items-center gap-7 md:w-9/12">
+            <div>
+              <button className="w-[60px] h-[60px] lg:w-[88px] lg:h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
+                <PiCopySimpleLight className="w-[34px] h-[34px]" />
+              </button>
             </div>
+            <h1 className="text-[30px] md:text-[40px] max-md:text-center font-semibold leading-[44.2px]">
+              1520 -Project Done. Browse our latest case study on Marketing
+              Agency
+            </h1>
           </div>
-          <button className="flex items-center gap-2 px-5 py-2 rounded bg-white text-[#292930] font-medium">
+          <button className="flex items-center justify-center gap-2 px-5 py-2 rounded bg-white text-[#292930] font-medium">
             More Cacestudys
             <span className="p-1 bg-[#5956E8] text-white rounded-full">
               <MdOutlineKeyboardArrowRight size={20} />

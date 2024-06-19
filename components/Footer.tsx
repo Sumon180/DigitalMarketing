@@ -41,7 +41,7 @@ const Footer = () => {
                 <FiPhone className="text-green-500" />
                 <p>Get in touch with</p>
               </div>
-              <div>
+              <div className="max-md:my-4">
                 <span className="px-5 py-2 rounded-md bg-[#3C3C45] text-[#FFDC60]">
                   +1917 000 1212
                 </span>

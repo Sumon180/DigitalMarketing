@@ -10,9 +10,9 @@ const Benifits = () => {
   return (
     <div className="section-wrapper flex flex-col md:flex-row mt-16 gap-10">
       <div className="section relative md:w-1/2">
-        <div className="flex flex-col md:flex-row gap-6">
+        <div className="flex flex-col items-center md:flex-row gap-6">
           <Image alt={"pricing icon"} src={star} className="max-md:w-14" />
-          <h1 className="text-[40px] font-semibold leading-[44.2px] max-w-[525px]">
+          <h1 className="text-[40px] max-md:text-center font-semibold leading-[44.2px] max-w-[525px]">
             Benifit of working with Maruncy
           </h1>
         </div>

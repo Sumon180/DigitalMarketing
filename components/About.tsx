@@ -12,16 +12,16 @@ const About = () => {
         <Image src={image} alt="about" />
       </div>
       <div className="lg:w-7/12">
-        <div className="flex items-center gap-7">
+        <div className="flex flex-col md:flex-row items-center gap-7">
           <button className="min-w-[60px] h-[60px] lg:min-w-[88px] lg:h-[88px] flex items-center justify-center rounded-full bg-[#5956E8] text-white font-medium">
             <HiAtSymbol className="w-[34px] h-[34px]" />
           </button>
-          <h1 className="text-[30px] lg:text-[40px] leading-[44.2px] font-semibold">
+          <h1 className="text-[30px] max-md:text-center lg:text-[40px] leading-[44.2px] font-semibold">
             The #1 digital marketing services company
           </h1>
         </div>
         <div className="bg-[#CFCFCF] h-[1px] my-10" />
-        <p className="text-[#555555]">
+        <p className="text-[#555555] max-md:text-center">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry ftyuu Ipsum has been the industrys standard book. It has
           survived not only five centuries, but also the leap into electronic

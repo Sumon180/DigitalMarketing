@@ -10,7 +10,7 @@ import pricing3 from "@/public/Maskgroup.png";
 const Pricing = () => {
   return (
     <div className="section-wrapper flex flex-col items-center py-14">
-      <Image alt={"pricing icon"} src={pricingicon} />
+      <Image alt={"pricing icon"} src={pricingicon} className="max-md:w-14" />
       <h1 className="text-[40px] font-semibold leading-[44.2px] max-w-[525px] text-center mt-7">
         Our Flexible Pricing Plans
       </h1>
