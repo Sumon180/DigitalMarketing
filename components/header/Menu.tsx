@@ -34,6 +34,7 @@ const Menu = () => {
           <Link
             href={item.link}
             className={cn(
+              "hover:text-[#5956E8]",
               pathname.includes(item.link) && "border-b-2 border-[#5956E8]"
             )}
           >
